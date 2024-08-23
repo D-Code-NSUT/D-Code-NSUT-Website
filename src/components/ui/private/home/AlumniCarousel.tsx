@@ -15,77 +15,41 @@ import { FaGithub, FaInstagram, FaLinkedinIn ,FaGraduationCap} from "react-icons
 
 const alumni = [
   {
-    name: "Anuja Singh",
+    name: "Abhishek Ghosh",
     position: "SDE at Google",
-    img: "https://mighty.tools/mockmind-api/content/human/43.jpg",
+    img: "/alumni/Abhishek.jpeg",
     message:
       "Working at Google has been a dream come true. I am grateful to D'code for helping me get here.",
     social: [
       { icon: <FaGithub />, link: "https://github.com" },
-      { icon: <FaLinkedinIn />, link: "https://linkedin.com" },
+      { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/abhishek-ghosh-in/" },
       { icon: <FaInstagram />, link: "https://instagram.com" },
     ],
   },
   {
-    name: "Rohit Sharma",
-    position: "SDE at Amazon",
-    img: "https://mighty.tools/mockmind-api/content/human/7.jpg",
+    name: "Hasan Usmani",
+    position: "SDE at Salesforce",
+    img: "/alumni/Hasan.jpeg",
     message:
-      "I am grateful to D'code for helping me get here. I am grateful to D'code for helping me get here.",
+      "D'Code equipped me with the skills and confidence needed to excel in my career.",
     social: [
       { icon: <FaGithub />, link: "https://github.com" },
-      { icon: <FaLinkedinIn />, link: "https://linkedin.com" },
-      { icon: <FaInstagram />, link: "https://instagram.com" },
+      { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/hasan-usmani-07717a1b7/" },
+      { icon: <FaInstagram />, link: "https://www.instagram.com/hasan.init?utm_source=qr&igsh=dHk4eDdjNGJxbG4y" },
     ],
   },
   {
-    name: "Rahul Singh",
-    position: "SDE at Microsoft",
-    img: "https://mighty.tools/mockmind-api/content/human/62.jpg",
+    name: "Vardaan Mahajan",
+    position: "Analyst at Bain & Company",
+    img: "/alumni/Vardaan.jpeg",
     message:
-      "I am grateful to D'code for helping me get here. I am grateful to D'code for helping me get here.",
+      "The experience and knowledge gained at D'Code were invaluable in my success.",
     social: [
       { icon: <FaGithub />, link: "https://github.com" },
-      { icon: <FaLinkedinIn />, link: "https://linkedin.com" },
+      { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/vardaan-mahajan-vm20/" },
       { icon: <FaInstagram />, link: "https://instagram.com" },
     ],
-  },
-  {
-    name: "Ankita Singh",
-    position: "SDE at Facebook",
-    img: "https://mighty.tools/mockmind-api/content/human/44.jpg",
-    message:
-      "I am grateful to D'code for helping me get here. I am grateful to D'code for helping me get here.",
-    social: [
-      { icon: <FaGithub />, link: "https://github.com" },
-      { icon: <FaLinkedinIn />, link: "https://linkedin.com" },
-      { icon: <FaInstagram />, link: "https://instagram.com" },
-    ],
-  },
-  {
-    name: "Ankit Sharma",
-    position: "SDE at Google",
-    img: "https://mighty.tools/mockmind-api/content/human/59.jpg",
-    message:
-      "I am grateful to D'code for helping me get here. I am grateful to D'code for helping me get here.",
-    social: [
-      { icon: <FaGithub />, link: "https://github.com" },
-      { icon: <FaLinkedinIn />, link: "https://linkedin.com" },
-      { icon: <FaInstagram />, link: "https://instagram.com" },
-    ],
-  },
-  {
-    name: "Rahul Sharma",
-    position: "SDE at Amazon",
-    img: "https://mighty.tools/mockmind-api/content/human/18.jpg",
-    message:
-      "I am grateful to D'code for helping me get here. I am grateful to D'code for helping me get here.",
-    social: [
-      { icon: <FaGithub />, link: "https://github.com" },
-      { icon: <FaLinkedinIn />, link: "https://linkedin.com" },
-      { icon: <FaInstagram />, link: "https://instagram.com" },
-    ],
-  },
+  }
 ];
 
 function AlumniCarousel() {
@@ -113,7 +77,7 @@ function AlumniCarousel() {
           <CarouselPrevious className="absolute top-1/2 -left-4 transform -translate-y-1/2 z-10 bg-gray-300 hover:bg-gray-400 text-dark rounded-full p-2 cursor-pointer" />
           <CarouselContent className="">
             {alumni.map((alumnus, index) => (
-              <CarouselItem key={index} className=" sm:basis-1/3 lg:basis-1/5">
+              <CarouselItem key={index} className=" sm:basis-1/3">
                 <TeamCards {...alumnus} isAlumni />
               </CarouselItem>
             ))}
@@ -163,6 +127,7 @@ function TeamCards({
               <a
                 key={index}
                 href={link}
+                target="_blank"
                 className="*:size-6"
               >
                 {icon}

@@ -1,138 +1,44 @@
 import Image from "next/image";
 
-
 export default function Event_gallery2() {
-    return (
-<div>
+  return (
+    <div>
+      <div className="px-5 md:px-10 mx-auto max-w-[85rem]">
 
+        <div className="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center ">
 
+          <div className="py-6 md:py-10 lg:col-span-3 lg:col-start-5 lg:row-start-1 lg:text-start text-center">
+            <h1 className="text-4xl font-bold text-gray-800 sm:text-5xl lg:text-6xl pb-2">
+              Byte Bazaar </h1>
+            <p className="mt-3 text-lg md:text-xl xl:text-2xl text-gray-800 ">
+              Bid for your problem statement event and other moments</p>
+          </div>
 
-
-
-
-
-
-<div>
-  <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
-    <div className="flex flex-wrap items-center mx-auto max-w-7xl">
-      <div className="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
-        <div>
-          <div className="relative w-full max-w-lg">
-            <div className="absolute top-0 rounded-full bg-violet-300 -left-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-
-            <div className="absolute rounded-full bg-blue-200 -bottom-24 right-20 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-            <div className="relative">
-
-
-
-
-
-                <div >
-
-
-           
-
-  <div className="-m-1 flex flex-wrap md:-m-2">
-    <div className="flex w-1/2 flex-wrap">
-      <div className="w-1/2 p-1 md:p-2">
-        <img
-          alt="gallery"
-          className="block h-full w-full rounded-lg object-cover object-center"
-          src="/eventHome/tr-1.jpeg" />
-      </div>
-      <div className="w-1/2 p-1 md:p-2">
-        <img
-          alt="gallery"
-          className="block h-full w-full rounded-lg object-cover object-center"
-          src="/eventHome/tr-2.jpeg" />
-      </div>
-      <div className="w-full p-1 md:p-2">
-        <img
-          alt="gallery"
-          className="block h-full w-full rounded-lg object-cover object-center"
-          src="/eventHome/byte1.jpeg" />
-      </div>
-    </div>
-    <div className="flex w-1/2 flex-wrap">
-      <div className="w-full p-1 md:p-2">
-        <img
-          alt="gallery"
-          className="block h-full w-full rounded-lg object-cover object-center"
-          src="/eventHome/byte-2.jpeg" />
-      </div>
-      <div className="w-1/2 p-1 md:p-2">
-        <img
-          alt="gallery"
-          className="block h-full w-full rounded-lg object-cover object-center"
-          src="/eventHome/byte-3.jpeg" />
-      </div>
-      <div className="w-1/2 p-1 md:p-2">
-        <img
-          alt="gallery"
-          className="block h-full w-full rounded-lg object-cover object-center"
-          src="/eventHome/ByteBazaar.jpeg" />
-      </div>
-    </div>
-  </div></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          <div className="lg:col-span-4 lg:col-start-1 lg:row-start-1 sm:px-3 md:px-5 lg:px-0 flex items-center justify-center">
+            <div className="flex flex-wrap md:-m-2 items-center justify-center md:max-w-[45rem] lg:max-w-[40rem]">
+              <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4">
+                <img
+                  alt="gallery"
+                  className="h-full w-full rounded-lg object-cover object-center"
+                  src="/eventHome/byte1.jpeg" />
+                <img
+                  alt="gallery"
+                  className="h-full w-full rounded-lg object-cover object-center"
+                  src="/eventHome/byte-2.jpeg" />
+                <img
+                  alt="gallery"
+                  className="h-full w-full rounded-lg object-cover object-center"
+                  src="/eventHome/byte-3.jpeg" />
+                <img
+                  alt="gallery"
+                  className="h-full w-full rounded-lg object-cover object-center"
+                  src="/eventHome/Bytebazaar.jpg" />
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
-        <span className="mb-8 text-s font-bold tracking-widest text-blue-600 uppercase"> D&apos;code </span>
-        <h1 className="mb-8 text-4xl font-bold leading-none tracking-tighter text-black md:text-7xl lg:text-5xl">Byte Bazaar & Others</h1>
-        <p className="mb-8 text-base leading-relaxed text-left text-gray-500">Bid for your problem statement event and other moments</p>
-        <div className="mt-0 lg:mt-6 max-w-7xl sm:flex">
-          
+
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-        
-    );
+  );
 }
