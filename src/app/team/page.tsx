@@ -15,7 +15,7 @@ export default function Team() {
         <Secretaries />
         <Lead />
 
-        <div>
+        {/* <div>
         <h1 className="text-3xl text-center p-5 font-semibold">Our Departements</h1>
           <Tabs defaultValue="DSA">
             <div className="flex justify-center items-center">
@@ -49,7 +49,7 @@ export default function Team() {
               </TabsContent>
             </div>
           </Tabs>
-        </div>
+        </div> */}
 
       </div>
     </>
