@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "D'Code NSUT",
     images: [
       {
-        url: "https://www.dcodensut.tech/og-banner.png",
+        url: "https://www.dcodensut.tech/og-banner.svg",
         width: 1200,
         height: 630,
         alt: "D'Code NSUT - Official Coding Society",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "D'Code NSUT - Official Coding Society",
     description:
       "D'Code NSUT is the official coding society of Netaji Subhas University of Technology. Join us for hackathons, workshops, and technical events that shape the future of technology.",
-    images: ["https://www.dcodensut.tech/og-banner.png"],
+    images: ["https://www.dcodensut.tech/og-banner.svg"],
   },
   keywords: [
     "D'Code",
