@@ -1,4 +1,6 @@
 
+import Image from 'next/image'
+
 export default function Event_gallery1() {
   return (
     <div>
@@ -16,42 +18,54 @@ export default function Event_gallery1() {
               <div className="-m-1 flex flex-wrap md:-m-2">
                 <div className="flex w-1/2 flex-wrap">
                   <div className="w-full md:w-1/2 p-1 md:p-2">
-                    <img
+                    <Image
                       alt="gallery"
                       className="block h-full w-full rounded-lg object-cover object-center"
-                      src="/eventHome/Hackathon.jpeg" />
+                      src="/eventHome/Hackathon.jpeg"
+                      width={300}
+                      height={200} />
                   </div>
                   <div className="w-full md:w-1/2 p-1 md:p-2">
-                    <img
+                    <Image
                       alt="gallery"
                       className="block h-full w-full rounded-lg object-cover object-center"
-                      src="/eventHome/Hack.jpeg" />
+                      src="/eventHome/Hack.jpeg"
+                      width={300}
+                      height={200} />
                   </div>
                   <div className="hidden md:block w-full p-1 md:p-2">
-                    <img
+                    <Image
                       alt="gallery"
                       className="block h-full w-full rounded-lg object-cover object-center"
-                      src="/eventHome/hack-3.jpeg" />
+                      src="/eventHome/hack-3.jpeg"
+                      width={300}
+                      height={200} />
                   </div>
                 </div>
                 <div className="flex w-1/2 flex-wrap">
                   <div className="w-full p-1 md:p-2">
-                    <img
+                    <Image
                       alt="gallery"
                       className="block h-full w-full rounded-lg object-cover object-center"
-                      src="/eventHome/hack-5.jpeg" />
+                      src="/eventHome/hack-5.jpeg"
+                      width={300}
+                      height={400} />
                   </div>
                   <div className="hidden md:block w-1/2 p-1 md:p-2">
-                    <img
+                    <Image
                       alt="gallery"
                       className="block h-full w-full rounded-lg object-cover object-center"
-                      src="/eventHome/hack-2.jpeg" />
+                      src="/eventHome/hack-2.jpeg"
+                      width={150}
+                      height={200} />
                   </div>
                   <div className="w-full md:w-1/2 p-1 md:p-2">
-                    <img
+                    <Image
                       alt="gallery"
                       className="block h-full w-full rounded-lg object-cover object-center"
-                      src="/eventHome/hack-6.jpeg" />
+                      src="/eventHome/hack-6.jpeg"
+                      width={150}
+                      height={200} />
                   </div>
                 </div>
               </div>

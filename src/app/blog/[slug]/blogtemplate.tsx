@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 
 interface BlogtemplateProps {
@@ -23,7 +24,7 @@ const Blogtemplate: React.FC<BlogtemplateProps> = ({ title, content,imageUrl,aut
     <div className="flex justify-between items-center mb-6">
       <div className="flex w-full sm:items-center gap-x-5 sm:gap-x-3">
         <div className="flex-shrink-0">
-          <img className="size-12 rounded-full" src={authorUrl} alt="Image ds"/>
+          <Image className="size-12 rounded-full" src={authorUrl} alt="Image ds" width={48} height={48}/>
         </div>
 
         <div className="grow">
@@ -42,7 +43,7 @@ const Blogtemplate: React.FC<BlogtemplateProps> = ({ title, content,imageUrl,aut
                     <div className="p-4 sm:p-5">
                       <div className="mb-2 flex w-full sm:items-center gap-x-5 sm:gap-x-3">
                         <div className="flex-shrink-0">
-                          <img className="size-8 rounded-full" src={authorUrl} alt="Image Description"/>
+                          <Image className="size-8 rounded-full" src={authorUrl} alt="Image Description" width={32} height={32}/>
                         </div>
 
                         
@@ -79,7 +80,7 @@ const Blogtemplate: React.FC<BlogtemplateProps> = ({ title, content,imageUrl,aut
 
 
       <figure>
-        <img className="w-full object-cover rounded-xl" src={imageUrl} alt="Image Description"/>
+        <Image className="w-full object-cover rounded-xl" src={imageUrl} alt="Image Description" width={800} height={450}/>
         <figcaption className="mt-3 text-sm text-center text-gray-500">
           A woman sitting at a table.
         </figcaption>

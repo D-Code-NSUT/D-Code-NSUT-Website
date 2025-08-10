@@ -12,7 +12,7 @@ export default function Event_carousel() {
       <div className="hs-carousel-slide">
         <div className="flex justify-center h-full bg-gray-100 p-6 ">
           <span className="self-center text-4xl text-gray-800 transition duration-700 ">
-          <img src="" alt="Blog Image" className="w-full h-auto" />
+          <Image src="" alt="Blog Image" className="w-full h-auto" width={400} height={300} />
           </span>
         </div>
       </div>

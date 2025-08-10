@@ -1,4 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import Image from 'next/image';
 
 function AIDepartment() {
   return (
@@ -89,7 +90,7 @@ function Card({
 }) {
   return (
     <div className="flex gap-3 sm:gap-4 md:gap-5">
-      <img className="object-cover w-16 h-16 sm:w-24 sm:h-24 lg:w-28 lg:h-28 rounded-full" src={img} alt="Person" />
+      <Image className="object-cover w-16 h-16 sm:w-24 sm:h-24 lg:w-28 lg:h-28 rounded-full" src={img} alt="Person" width={112} height={112} />
       <div className="flex flex-col justify-center">
         <p className="text-sm md:text-lg font-bold">{name}</p>
         <p className="text-xs md:text-sm text-gray-800">{position}</p>

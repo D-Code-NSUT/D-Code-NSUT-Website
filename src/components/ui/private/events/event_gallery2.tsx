@@ -17,22 +17,30 @@ export default function Event_gallery2() {
           <div className="lg:col-span-4 lg:col-start-1 lg:row-start-1 sm:px-3 md:px-5 lg:px-0 flex items-center justify-center">
             <div className="flex flex-wrap md:-m-2 items-center justify-center md:max-w-[45rem] lg:max-w-[40rem]">
               <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4">
-                <img
+                <Image
                   alt="gallery"
                   className="h-full w-full rounded-lg object-cover object-center"
-                  src="/eventHome/byte1.jpeg" />
-                <img
+                  src="/eventHome/byte1.jpeg"
+                  width={300}
+                  height={300} />
+                <Image
                   alt="gallery"
                   className="h-full w-full rounded-lg object-cover object-center"
-                  src="/eventHome/byte-2.jpeg" />
-                <img
+                  src="/eventHome/byte-2.jpeg"
+                  width={300}
+                  height={300} />
+                <Image
                   alt="gallery"
                   className="h-full w-full rounded-lg object-cover object-center"
-                  src="/eventHome/byte-3.jpeg" />
-                <img
+                  src="/eventHome/byte-3.jpeg"
+                  width={300}
+                  height={300} />
+                <Image
                   alt="gallery"
                   className="h-full w-full rounded-lg object-cover object-center"
-                  src="/eventHome/Bytebazaar.jpg" />
+                  src="/eventHome/Bytebazaar.jpg"
+                  width={300}
+                  height={300} />
               </div>
             </div>
           </div>

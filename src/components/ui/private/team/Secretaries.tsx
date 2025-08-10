@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function Secretaries() {
   return (
     <div className="">
@@ -45,10 +47,12 @@ function Card({
   return (
     <div>
       <div className="flex flex-col gap-5 items-center justify-center">
-        <img
+        <Image
           className="w-28 h-28 rounded-full sm:w-36 sm:h-36 md:w-40 md:h-40 lg:w-48 lg:h-48"
           src={img}
           alt="woman"
+          width={192}
+          height={192}
           loading="lazy"
         />
         <div className="flex-1 flex flex-col items-center">

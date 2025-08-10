@@ -93,29 +93,39 @@ export default function Home() {
 
         <div className="grid grid-cols-6 gap-2">
           <div className=" overflow-hidden rounded-xl col-span-6 sm:col-span-3 max-h-60 sm:max-h-80">
-            <img className="h-full w-full object-cover "
+            <Image className="h-full w-full object-cover "
               src="/eventHome/ethnic.jpeg"
-              alt="" />
+              alt=""
+              width={640}
+              height={320} />
           </div>
           <div className=" overflow-hidden rounded-xl col-span-6 sm:col-span-3 max-h-60 sm:max-h-80">
-            <img className="h-full w-full object-cover  "
+            <Image className="h-full w-full object-cover  "
               src="/eventHome/ByteBazaar.jpeg"
-              alt="" />
+              alt=""
+              width={640}
+              height={320} />
           </div>
           <div className=" overflow-hidden rounded-xl col-span-2 max-h-52">
-            <img className="h-full w-full object-cover "
+            <Image className="h-full w-full object-cover "
               src="/eventHome/group.jpeg"
-              alt="" />
+              alt=""
+              width={213}
+              height={208} />
           </div>
           <div className=" overflow-hidden rounded-xl col-span-2 max-h-52">
-            <img className="h-full w-full object-cover "
+            <Image className="h-full w-full object-cover "
               src="/eventHome/Hack.jpeg"
-              alt="" />
+              alt=""
+              width={213}
+              height={208} />
           </div>
           <div className=" overflow-hidden rounded-xl col-span-2 max-h-52">
-            <img className="h-full w-full object-cover "
+            <Image className="h-full w-full object-cover "
               src="/eventHome/Hackathon.jpeg"
-              alt="" />
+              alt=""
+              width={213}
+              height={208} />
           </div>
         </div>
       </div>
